@@ -1,10 +1,12 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ProductGrid from "@/components/ProductGrid";
+import NewsletterSection from "@/components/NewsletterSection";
 
-export default function RecursosPage() {
-  const t = useTranslations("recursos");
+export default async function RecursosPage() {
+  const t = await getTranslations("recursos");
+  const nt = await getTranslations("newsletter");
 
   const productData = t.raw("products") as Record<
     string,
@@ -46,32 +48,13 @@ export default function RecursosPage() {
           </div>
         </section>
 
-        {/* Newsletter CTA */}
-        <section className="bg-navy py-14">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <h2 className="text-2xl font-bold text-white mb-2">
-                {useTranslations("newsletter")("title")}
-              </h2>
-              <p className="text-blue-200">
-                {useTranslations("newsletter")("description")}
-              </p>
-            </div>
-            <form className="flex flex-col sm:flex-row gap-3" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder={useTranslations("newsletter")("placeholder")}
-                className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sage"
-              />
-              <button
-                type="submit"
-                className="bg-sage hover:bg-sage-dark text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-              >
-                {useTranslations("newsletter")("button")}
-              </button>
-            </form>
-          </div>
-        </section>
+        {/* Newsletter */}
+        <NewsletterSection
+          title={nt("title")}
+          description={nt("description")}
+          placeholder={nt("placeholder")}
+          button={nt("button")}
+        />
       </main>
       <Footer />
     </>

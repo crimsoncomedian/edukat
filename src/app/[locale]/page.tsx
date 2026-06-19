@@ -1,7 +1,8 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import NewsletterSection from "@/components/NewsletterSection";
 
 const productColors = [
   { bg: "#3D6B5C", icon: "🧠" },
@@ -10,8 +11,9 @@ const productColors = [
   { bg: "#6B7280", icon: "🕐" },
 ];
 
-export default function HomePage() {
-  const t = useTranslations();
+export default async function HomePage() {
+  const t = await getTranslations();
+  const nt = await getTranslations("newsletter");
 
   const products = t.raw("popular.products") as Array<{
     slug: string;
@@ -56,7 +58,6 @@ export default function HomePage() {
                 </a>
               </div>
             </div>
-            {/* Hero image placeholder */}
             <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-50 to-sage/20 aspect-[4/3] flex items-center justify-center">
               <div className="text-center p-8">
                 <div className="text-6xl mb-4">👩‍👴</div>
@@ -97,7 +98,6 @@ export default function HomePage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
               {products.map((product, i) => (
                 <div key={product.slug} className="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
-                  {/* Book cover placeholder */}
                   <div
                     className="h-44 flex flex-col items-center justify-center p-4 text-white text-center"
                     style={{ backgroundColor: productColors[i].bg }}
@@ -134,7 +134,6 @@ export default function HomePage() {
         {/* ── WHY FAMILIES TRUST ── */}
         <section id="how-it-helps" className="bg-gray-soft py-16 md:py-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
-            {/* Image placeholder */}
             <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-navy/10 to-sage/20 aspect-[4/3] flex items-center justify-center order-2 md:order-1">
               <div className="text-center p-8">
                 <div className="text-6xl mb-4">👴👵</div>
@@ -167,35 +166,12 @@ export default function HomePage() {
         </section>
 
         {/* ── NEWSLETTER ── */}
-        <section className="bg-navy py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 items-center">
-            <div className="flex items-start gap-4">
-              <svg className="w-12 h-12 text-sage shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
-              <div>
-                <h2 className="text-2xl font-bold text-white mb-2">{t("newsletter.title")}</h2>
-                <p className="text-blue-200 leading-relaxed">{t("newsletter.description")}</p>
-              </div>
-            </div>
-            <div>
-              <form className="flex flex-col sm:flex-row gap-3" onSubmit={(e) => e.preventDefault()}>
-                <input
-                  type="email"
-                  placeholder={t("newsletter.placeholder")}
-                  className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sage text-base"
-                />
-                <button
-                  type="submit"
-                  className="bg-sage hover:bg-sage-dark text-white px-6 py-3 rounded-lg font-semibold transition-colors whitespace-nowrap"
-                >
-                  {t("newsletter.button")}
-                </button>
-              </form>
-              <p className="text-blue-300 text-xs mt-2">{t("newsletter.disclaimer")}</p>
-            </div>
-          </div>
-        </section>
+        <NewsletterSection
+          title={nt("title")}
+          description={nt("description")}
+          placeholder={nt("placeholder")}
+          button={nt("button")}
+        />
       </main>
 
       <Footer />
