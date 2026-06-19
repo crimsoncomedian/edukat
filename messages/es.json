@@ -1,14 +1,102 @@
 {
   "metadata": {
-    "title": "Edukat",
-    "description": "Plataforma educativa"
+    "title": "EduKata — Guías para cuidadores",
+    "description": "Recursos en PDF para apoyar a adultos mayores y sus familias"
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de"
+    "resources": "Recursos",
+    "about": "Sobre nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "cart": "Carrito"
   },
-  "home": {
-    "title": "Bienvenido a Edukat",
-    "subtitle": "Tu plataforma de aprendizaje"
+  "hero": {
+    "headline1": "Guías prácticas.",
+    "headline2": "Conexiones más fuertes.",
+    "description": "Recursos en PDF para apoyar la cognición, manejar situaciones difíciles y mejorar la vida diaria de adultos mayores y sus cuidadores.",
+    "cta_primary": "Ver recursos",
+    "cta_secondary": "Cómo ayuda"
+  },
+  "valueProps": {
+    "title1": "Descarga instantánea",
+    "desc1": "Recibe tu guía de inmediato",
+    "title2": "Confiable y práctico",
+    "desc2": "Creado por expertos, enfocado en la vida real",
+    "title3": "Para cuidadores y familias",
+    "desc3": "Apoyo en cada etapa del camino",
+    "title4": "Fácil de usar",
+    "desc4": "Orientación clara, concisa y accionable"
+  },
+  "popular": {
+    "title": "Recursos populares",
+    "subtitle": "Explora nuestras guías más descargadas.",
+    "browseAll": "Ver todos los recursos",
+    "viewGuide": "Ver guía",
+    "products": [
+      {
+        "slug": "cambios-de-memoria",
+        "title": "Entendiendo los cambios de memoria",
+        "description": "Aprende la diferencia entre el envejecimiento normal y las preocupaciones de memoria.",
+        "price": "$12.00"
+      },
+      {
+        "slug": "comunicacion-efectiva",
+        "title": "Comunicando con confianza",
+        "description": "Consejos prácticos para conversaciones significativas y menos frustrantes.",
+        "price": "$15.00"
+      },
+      {
+        "slug": "comportamientos-dificiles",
+        "title": "Manejando comportamientos difíciles",
+        "description": "Estrategias efectivas para situaciones desafiantes con compasión.",
+        "price": "$18.00"
+      },
+      {
+        "slug": "rutinas-diarias",
+        "title": "Rutinas diarias para el apoyo cognitivo",
+        "description": "Construye rutinas que promuevan la independencia y el bienestar.",
+        "price": "$10.00"
+      }
+    ]
+  },
+  "trust": {
+    "title": "Por qué las familias confían en EduKata",
+    "point1_title": "Basado en expertos",
+    "point1_desc": "Contenido creado con cuidado y experiencia",
+    "point2_title": "Enfocado en la vida real",
+    "point2_desc": "Herramientas que abordan desafíos cotidianos",
+    "point3_title": "Apoyo compasivo",
+    "point3_desc": "Recursos que empoderan a cuidadores y mayores",
+    "point4_title": "Ahorra tiempo y estrés",
+    "point4_desc": "Orientación clara que puedes usar de inmediato"
+  },
+  "newsletter": {
+    "title": "Mantente informado y apoyado",
+    "description": "Únete a nuestro boletín para recibir consejos gratuitos, nuevos recursos y apoyo para cuidadores.",
+    "placeholder": "Tu correo electrónico",
+    "button": "Suscribirse",
+    "disclaimer": "Sin spam. Cancela cuando quieras."
+  },
+  "footer": {
+    "tagline": "Recursos prácticos en PDF para ayudar a adultos mayores y sus cuidadores a vivir con confianza y dignidad.",
+    "explore": "Explorar",
+    "allResources": "Todos los recursos",
+    "cognition": "Cognición y memoria",
+    "caregiverSupport": "Apoyo al cuidador",
+    "dailyLiving": "Vida diaria",
+    "bundles": "Paquetes",
+    "company": "Empresa",
+    "about": "Sobre nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "help": "Ayuda",
+    "faq": "Preguntas frecuentes",
+    "terms": "Términos de uso",
+    "privacy": "Política de privacidad",
+    "refund": "Política de reembolso",
+    "secureCheckout": "Pago seguro",
+    "secureCheckoutDesc": "Tu información está protegida",
+    "copyright": "© 2024 EduKata. Todos los derechos reservados."
   }
 }

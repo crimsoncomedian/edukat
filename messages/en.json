@@ -1,14 +1,102 @@
 {
   "metadata": {
-    "title": "Edukat",
-    "description": "Educational platform"
+    "title": "EduKata — Guides for Caregivers",
+    "description": "PDF resources to support older adults and their families"
   },
   "nav": {
     "home": "Home",
-    "about": "About"
+    "resources": "Resources",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Cart"
   },
-  "home": {
-    "title": "Welcome to Edukat",
-    "subtitle": "Your learning platform"
+  "hero": {
+    "headline1": "Practical guides.",
+    "headline2": "Stronger connections.",
+    "description": "PDF resources to support cognition, handle challenging situations, and improve daily life for older adults and their caregivers.",
+    "cta_primary": "Browse Resources",
+    "cta_secondary": "How It Helps"
+  },
+  "valueProps": {
+    "title1": "Instant PDF Download",
+    "desc1": "Get your guide right away",
+    "title2": "Trusted & Practical",
+    "desc2": "Created by experts, focused on real life",
+    "title3": "For Caregivers & Families",
+    "desc3": "Support for every step of the journey",
+    "title4": "Easy to Use",
+    "desc4": "Clear, concise, and actionable guidance"
+  },
+  "popular": {
+    "title": "Popular Resources",
+    "subtitle": "Explore our most downloaded guides.",
+    "browseAll": "Browse All Resources",
+    "viewGuide": "View Guide",
+    "products": [
+      {
+        "slug": "cambios-de-memoria",
+        "title": "Understanding Memory Changes",
+        "description": "Learn the difference between normal aging and memory concerns.",
+        "price": "$12.00"
+      },
+      {
+        "slug": "comunicacion-efectiva",
+        "title": "Communicating with Confidence",
+        "description": "Practical tips for meaningful conversations and less frustration.",
+        "price": "$15.00"
+      },
+      {
+        "slug": "comportamientos-dificiles",
+        "title": "Handling Difficult Behaviors",
+        "description": "Effective strategies for challenging situations with compassion.",
+        "price": "$18.00"
+      },
+      {
+        "slug": "rutinas-diarias",
+        "title": "Daily Routines for Cognitive Support",
+        "description": "Build routines that promote independence and well-being.",
+        "price": "$10.00"
+      }
+    ]
+  },
+  "trust": {
+    "title": "Why Families Trust EduKata",
+    "point1_title": "Expert-Informed",
+    "point1_desc": "Content created with care and expertise",
+    "point2_title": "Real-Life Focused",
+    "point2_desc": "Tools that address everyday challenges",
+    "point3_title": "Compassionate Support",
+    "point3_desc": "Resources that empower caregivers and seniors",
+    "point4_title": "Save Time & Stress",
+    "point4_desc": "Clear guidance you can use right away"
+  },
+  "newsletter": {
+    "title": "Stay informed and supported",
+    "description": "Join our newsletter for free tips, new resource updates, and helpful caregiver support.",
+    "placeholder": "Enter your email address",
+    "button": "Subscribe",
+    "disclaimer": "No spam, ever. Unsubscribe anytime."
+  },
+  "footer": {
+    "tagline": "Practical PDF resources to help older adults and their caregivers live with confidence and dignity.",
+    "explore": "Explore",
+    "allResources": "All Resources",
+    "cognition": "Cognition & Memory",
+    "caregiverSupport": "Caregiver Support",
+    "dailyLiving": "Daily Living",
+    "bundles": "Bundles",
+    "company": "Company",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "help": "Help",
+    "faq": "FAQ",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "refund": "Refund Policy",
+    "secureCheckout": "Secure Checkout",
+    "secureCheckoutDesc": "Your information is safe with us",
+    "copyright": "© 2024 EduKata. All rights reserved."
   }
 }
