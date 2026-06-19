@@ -34,30 +34,10 @@
     "browseAll": "Ver todos los recursos",
     "viewGuide": "Ver guía",
     "products": [
-      {
-        "slug": "cambios-de-memoria",
-        "title": "Entendiendo los cambios de memoria",
-        "description": "Aprende la diferencia entre el envejecimiento normal y las preocupaciones de memoria.",
-        "price": "$12.00"
-      },
-      {
-        "slug": "comunicacion-efectiva",
-        "title": "Comunicando con confianza",
-        "description": "Consejos prácticos para conversaciones significativas y menos frustrantes.",
-        "price": "$15.00"
-      },
-      {
-        "slug": "comportamientos-dificiles",
-        "title": "Manejando comportamientos difíciles",
-        "description": "Estrategias efectivas para situaciones desafiantes con compasión.",
-        "price": "$18.00"
-      },
-      {
-        "slug": "rutinas-diarias",
-        "title": "Rutinas diarias para el apoyo cognitivo",
-        "description": "Construye rutinas que promuevan la independencia y el bienestar.",
-        "price": "$10.00"
-      }
+      { "slug": "cambios-de-memoria", "title": "Entendiendo los cambios de memoria", "description": "Aprende la diferencia entre el envejecimiento normal y las preocupaciones de memoria.", "price": "$12.00" },
+      { "slug": "comunicacion-efectiva", "title": "Comunicando con confianza", "description": "Consejos prácticos para conversaciones significativas y menos frustrantes.", "price": "$15.00" },
+      { "slug": "comportamientos-dificiles", "title": "Manejando comportamientos difíciles", "description": "Estrategias efectivas para situaciones desafiantes con compasión.", "price": "$18.00" },
+      { "slug": "rutinas-diarias", "title": "Rutinas diarias para el apoyo cognitivo", "description": "Construye rutinas que promuevan la independencia y el bienestar.", "price": "$10.00" }
     ]
   },
   "trust": {
@@ -98,5 +78,59 @@
     "secureCheckout": "Pago seguro",
     "secureCheckoutDesc": "Tu información está protegida",
     "copyright": "© 2024 EduKata. Todos los derechos reservados."
+  },
+  "recursos": {
+    "title": "Todos los recursos",
+    "subtitle": "Guías prácticas en PDF para cada etapa del cuidado.",
+    "filterAll": "Todos",
+    "filterCognition": "Cognición y memoria",
+    "filterCaregiver": "Apoyo al cuidador",
+    "filterDaily": "Vida diaria",
+    "filterCommunication": "Comunicación",
+    "buyNow": "Comprar ahora",
+    "viewGuide": "Ver guía",
+    "instantDownload": "Descarga instantánea en PDF",
+    "products": {
+      "cambios-de-memoria": {
+        "title": "Entendiendo los cambios de memoria",
+        "description": "Aprende la diferencia entre el envejecimiento normal y las preocupaciones de memoria.",
+        "longDescription": "Esta guía te ayuda a comprender cuándo los olvidos son parte del envejecimiento normal y cuándo pueden ser una señal de algo más. Incluye listas de verificación, preguntas para el médico y estrategias prácticas para el hogar."
+      },
+      "comunicacion-efectiva": {
+        "title": "Comunicando con confianza",
+        "description": "Consejos prácticos para conversaciones significativas y menos frustrantes.",
+        "longDescription": "Aprende técnicas de comunicación adaptadas para adultos mayores con pérdida de memoria. Incluye frases que funcionan, errores comunes que evitar, y cómo manejar conversaciones difíciles con calma y compasión."
+      },
+      "comportamientos-dificiles": {
+        "title": "Manejando comportamientos difíciles",
+        "description": "Estrategias efectivas para situaciones desafiantes con compasión.",
+        "longDescription": "Una guía paso a paso para comprender y responder a comportamientos como la agitación, la agresividad, la repetición y la resistencia al cuidado. Basada en técnicas validadas por expertos en demencia."
+      },
+      "rutinas-diarias": {
+        "title": "Rutinas diarias para el apoyo cognitivo",
+        "description": "Construye rutinas que promuevan la independencia y el bienestar.",
+        "longDescription": "Las rutinas predecibles reducen la ansiedad y promueven la autonomía. Esta guía incluye plantillas de rutinas mañaneras, nocturnas y de actividades, adaptadas para diferentes niveles de necesidad."
+      },
+      "seguridad-en-el-hogar": {
+        "title": "Seguridad en el hogar",
+        "description": "Lista completa para hacer el hogar más seguro para adultos mayores.",
+        "longDescription": "Una guía de revisión completa del hogar: cocina, baño, escaleras, iluminación y más. Incluye recomendaciones de productos, modificaciones de bajo costo y una lista de verificación imprimible."
+      },
+      "autocuidado-cuidador": {
+        "title": "Autocuidado para el cuidador",
+        "description": "Estrategias para evitar el agotamiento y mantener tu bienestar.",
+        "longDescription": "Cuidar a un ser querido es agotador. Esta guía ofrece herramientas concretas para reconocer el agotamiento del cuidador, establecer límites saludables y encontrar tiempo para ti mismo sin sentirte culpable."
+      },
+      "alimentacion-y-nutricion": {
+        "title": "Alimentación y nutrición",
+        "description": "Guía de alimentación práctica para adultos mayores con demencia.",
+        "longDescription": "Incluye ideas de comidas fáciles de preparar, cómo manejar la pérdida de apetito, adaptaciones para dificultades de deglución y estrategias para hacer que la hora de comer sea más agradable."
+      },
+      "signos-de-alerta": {
+        "title": "Señales de alerta: cuándo buscar ayuda",
+        "description": "Aprende a reconocer los signos que requieren atención médica inmediata.",
+        "longDescription": "Una guía rápida de referencia para saber cuándo un cambio en el comportamiento, la movilidad o el estado de ánimo es urgente. Incluye una lista de síntomas a reportar al médico y cómo prepararte para esas conversaciones."
+      }
+    }
   }
 }

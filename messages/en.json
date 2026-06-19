@@ -34,30 +34,10 @@
     "browseAll": "Browse All Resources",
     "viewGuide": "View Guide",
     "products": [
-      {
-        "slug": "cambios-de-memoria",
-        "title": "Understanding Memory Changes",
-        "description": "Learn the difference between normal aging and memory concerns.",
-        "price": "$12.00"
-      },
-      {
-        "slug": "comunicacion-efectiva",
-        "title": "Communicating with Confidence",
-        "description": "Practical tips for meaningful conversations and less frustration.",
-        "price": "$15.00"
-      },
-      {
-        "slug": "comportamientos-dificiles",
-        "title": "Handling Difficult Behaviors",
-        "description": "Effective strategies for challenging situations with compassion.",
-        "price": "$18.00"
-      },
-      {
-        "slug": "rutinas-diarias",
-        "title": "Daily Routines for Cognitive Support",
-        "description": "Build routines that promote independence and well-being.",
-        "price": "$10.00"
-      }
+      { "slug": "cambios-de-memoria", "title": "Understanding Memory Changes", "description": "Learn the difference between normal aging and memory concerns.", "price": "$12.00" },
+      { "slug": "comunicacion-efectiva", "title": "Communicating with Confidence", "description": "Practical tips for meaningful conversations and less frustration.", "price": "$15.00" },
+      { "slug": "comportamientos-dificiles", "title": "Handling Difficult Behaviors", "description": "Effective strategies for challenging situations with compassion.", "price": "$18.00" },
+      { "slug": "rutinas-diarias", "title": "Daily Routines for Cognitive Support", "description": "Build routines that promote independence and well-being.", "price": "$10.00" }
     ]
   },
   "trust": {
@@ -98,5 +78,59 @@
     "secureCheckout": "Secure Checkout",
     "secureCheckoutDesc": "Your information is safe with us",
     "copyright": "© 2024 EduKata. All rights reserved."
+  },
+  "recursos": {
+    "title": "All Resources",
+    "subtitle": "Practical PDF guides for every stage of caregiving.",
+    "filterAll": "All",
+    "filterCognition": "Cognition & Memory",
+    "filterCaregiver": "Caregiver Support",
+    "filterDaily": "Daily Living",
+    "filterCommunication": "Communication",
+    "buyNow": "Buy Now",
+    "viewGuide": "View Guide",
+    "instantDownload": "Instant PDF Download",
+    "products": {
+      "cambios-de-memoria": {
+        "title": "Understanding Memory Changes",
+        "description": "Learn the difference between normal aging and memory concerns.",
+        "longDescription": "This guide helps you understand when forgetfulness is part of normal aging and when it may be a sign of something more. Includes checklists, questions for your doctor, and practical home strategies."
+      },
+      "comunicacion-efectiva": {
+        "title": "Communicating with Confidence",
+        "description": "Practical tips for meaningful conversations and less frustration.",
+        "longDescription": "Learn communication techniques tailored for older adults with memory loss. Includes phrases that work, common mistakes to avoid, and how to navigate difficult conversations calmly and compassionately."
+      },
+      "comportamientos-dificiles": {
+        "title": "Handling Difficult Behaviors",
+        "description": "Effective strategies for challenging situations with compassion.",
+        "longDescription": "A step-by-step guide to understanding and responding to behaviors like agitation, aggression, repetition, and resistance to care. Based on techniques validated by dementia experts."
+      },
+      "rutinas-diarias": {
+        "title": "Daily Routines for Cognitive Support",
+        "description": "Build routines that promote independence and well-being.",
+        "longDescription": "Predictable routines reduce anxiety and promote autonomy. This guide includes morning, evening, and activity routine templates adapted for different levels of need."
+      },
+      "seguridad-en-el-hogar": {
+        "title": "Home Safety",
+        "description": "A complete checklist to make the home safer for older adults.",
+        "longDescription": "A thorough home review guide: kitchen, bathroom, stairs, lighting, and more. Includes product recommendations, low-cost modifications, and a printable checklist."
+      },
+      "autocuidado-cuidador": {
+        "title": "Caregiver Self-Care",
+        "description": "Strategies to prevent burnout and maintain your well-being.",
+        "longDescription": "Caring for a loved one is exhausting. This guide offers concrete tools to recognize caregiver burnout, set healthy boundaries, and find time for yourself without feeling guilty."
+      },
+      "alimentacion-y-nutricion": {
+        "title": "Nutrition & Eating",
+        "description": "Practical nutrition guide for older adults with dementia.",
+        "longDescription": "Includes easy meal ideas, how to manage appetite loss, adaptations for swallowing difficulties, and strategies to make mealtimes more enjoyable."
+      },
+      "signos-de-alerta": {
+        "title": "Warning Signs: When to Seek Help",
+        "description": "Learn to recognize signs that require immediate medical attention.",
+        "longDescription": "A quick reference guide for knowing when a change in behavior, mobility, or mood is urgent. Includes a list of symptoms to report to the doctor and how to prepare for those conversations."
+      }
+    }
   }
 }
