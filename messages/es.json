@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "title": "Edukat",
+    "description": "Plataforma educativa"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "home": {
+    "title": "Bienvenido a Edukat",
+    "subtitle": "Tu plataforma de aprendizaje"
+  }
+}
