@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -58,11 +59,14 @@ export default async function HomePage() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-50 to-sage/20 aspect-[4/3] flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="text-6xl mb-4">👩‍👴</div>
-                <p className="text-navy/40 text-sm font-medium">Imagen del héroe</p>
-              </div>
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
+              <Image
+                src="/hero.png"
+                alt="Cuidadora con adulto mayor"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </section>
@@ -134,11 +138,13 @@ export default async function HomePage() {
         {/* ── WHY FAMILIES TRUST ── */}
         <section id="how-it-helps" className="bg-gray-soft py-16 md:py-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
-            <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-navy/10 to-sage/20 aspect-[4/3] flex items-center justify-center order-2 md:order-1">
-              <div className="text-center p-8">
-                <div className="text-6xl mb-4">👴👵</div>
-                <p className="text-navy/40 text-sm font-medium">Imagen de familia</p>
-              </div>
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/3] order-2 md:order-1">
+              <Image
+                src="/family.png"
+                alt="Familia cuidando a adulto mayor"
+                fill
+                className="object-cover"
+              />
             </div>
 
             <div className="order-1 md:order-2">
